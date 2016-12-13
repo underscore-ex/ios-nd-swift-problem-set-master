@@ -61,9 +61,9 @@ Change the values of the variables and see how the output changes.
 */
 var game = "Slow adventures with Morris the Lorris"
 
-var bugs = 9
-var hasMusic = true
-var numberOfLevels = 7
+var bugs = 10
+var hasMusic = false
+var numberOfLevels = 3
 
 func release() {
     print("\(game) is now ready for sale.")
@@ -76,7 +76,7 @@ func checkForRelease(bugs: Int, music: Bool, levels: Int) {
     else {
         print("Game doesn't meet following minimum criteria")
         var bullet:Int = 1
-        if (bugs < 10){
+        if (bugs >= 10){
             print ("\(bullet): It should have less than \(bugs)")
             bullet = bullet + 1
         }

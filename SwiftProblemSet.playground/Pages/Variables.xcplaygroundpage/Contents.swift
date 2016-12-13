@@ -39,7 +39,7 @@ let reversedString = String("Mutable or Immutable? That is the question.".charac
 */
 var hungerLevel: Int
 let requiredScoreToWin = Int()
-var studentsBirthday = String()
+let studentsBirthday = String()
 var inputText: String
 /*:
  ****
